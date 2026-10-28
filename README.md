@@ -1,5 +1,7 @@
 # Hakscan Templates
 
+<sub><strong>English</strong> • <a href="README_FR.md">Français</a></sub>
+
 Community-curated list of templates for the [Hakscan](https://github.com/slayzbsss/Hakscan)
 engine to find security vulnerabilities in web applications and mobile/binary artifacts.
 

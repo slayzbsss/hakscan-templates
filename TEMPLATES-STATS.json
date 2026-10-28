@@ -1,0 +1,14 @@
+{
+  "directories": 6,
+  "templates": 16,
+  "by_kind": {"http": 11, "secret": 5},
+  "by_category": {
+    "web/exposures": 3,
+    "web/misconfiguration": 3,
+    "web/panels": 2,
+    "web/cms": 2,
+    "web/tech": 1,
+    "apk/secrets": 5
+  },
+  "by_severity": {"critical": 1, "high": 3, "medium": 5, "low": 1, "info": 1}
+}

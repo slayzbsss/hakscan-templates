@@ -1,13 +1,8 @@
-## Template Pull Request
+## Description
 
-**What does this template detect?**
+<!-- What does this PR change and why? -->
 
-<!-- one line -->
-
-**Category / path:** `web/<category>` or `apk/<category>`
-
-**Checklist**
-- [ ] One detection per file, placed in the right category folder
-- [ ] `kind` is `http` or `secret`
-- [ ] Matchers are precise (low false-positive risk)
-- [ ] For authorized, lawful testing only
+## Checklist
+- [ ] `go vet ./...` and `make build` pass
+- [ ] Changes are for authorized, lawful security testing
+- [ ] Docs updated if behavior changed
