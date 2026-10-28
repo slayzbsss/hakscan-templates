@@ -1,0 +1,1 @@
+{"kind":"http","name":".DS_Store exposed","severity":"low","description":"macOS .DS_Store can reveal directory structure.","path":"/.DS_Store","matchers-condition":"and","matchers":[{"type":"status","values":[200]},{"type":"word","part":"body","values":["Bud1"]}]}

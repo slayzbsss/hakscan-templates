@@ -1,0 +1,1 @@
+{"kind":"http","name":"Git config exposed","severity":"high","description":"/.git/config is publicly readable; source history may be downloadable.","path":"/.git/config","matchers-condition":"and","matchers":[{"type":"status","values":[200]},{"type":"word","part":"body","values":["[core]"]}]}

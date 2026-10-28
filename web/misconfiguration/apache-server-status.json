@@ -1,0 +1,1 @@
+{"kind":"http","name":"Apache server-status exposed","severity":"medium","description":"mod_status page is publicly accessible.","path":"/server-status","matchers":[{"type":"word","part":"body","values":["Apache Server Status"]}]}

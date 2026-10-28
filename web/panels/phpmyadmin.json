@@ -1,0 +1,1 @@
+{"kind":"http","name":"phpMyAdmin panel","severity":"low","description":"phpMyAdmin login panel detected.","path":"/phpmyadmin/","matchers":[{"type":"word","part":"body","values":["phpMyAdmin"]}]}

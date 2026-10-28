@@ -1,0 +1,1 @@
+{"kind":"http","name":"WordPress login","severity":"info","description":"WordPress login page detected.","path":"/wp-login.php","matchers":[{"type":"word","part":"body","values":["WordPress"]}]}

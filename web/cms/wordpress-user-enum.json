@@ -1,0 +1,1 @@
+{"kind":"http","name":"WordPress user enumeration (REST)","severity":"medium","description":"/wp-json/wp/v2/users exposes usernames.","path":"/wp-json/wp/v2/users","matchers-condition":"and","matchers":[{"type":"status","values":[200]},{"type":"word","part":"body","values":["\"slug\""]}]}

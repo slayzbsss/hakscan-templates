@@ -1,0 +1,1 @@
+{"kind":"http","name":"Directory listing enabled","severity":"medium","description":"The server exposes a folder's contents.","path":"/","matchers":[{"type":"word","part":"body","values":["Index of /"]}]}

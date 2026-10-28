@@ -1,0 +1,1 @@
+{"kind":"http","name":"phpinfo() exposed","severity":"medium","description":"phpinfo() leaks environment and configuration.","path":"/phpinfo.php","matchers":[{"type":"word","part":"body","values":["phpinfo()","PHP Version"],"all":true}]}

@@ -1,0 +1,1 @@
+{"kind":"http","name":"Swagger / OpenAPI exposed","severity":"info","description":"API documentation endpoint detected.","path":"/swagger.json","matchers":[{"type":"word","part":"body","values":["swagger","openapi"]}]}

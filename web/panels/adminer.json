@@ -1,0 +1,1 @@
+{"kind":"http","name":"Adminer panel","severity":"low","description":"Adminer database panel detected.","path":"/adminer.php","matchers":[{"type":"word","part":"body","values":["Adminer"]}]}

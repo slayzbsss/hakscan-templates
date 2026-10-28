@@ -1,0 +1,1 @@
+{"kind":"http","name":"Environment file exposed","severity":"critical","description":"A .env file with configuration/secrets is publicly readable.","path":"/.env","matchers-condition":"and","matchers":[{"type":"status","values":[200]},{"type":"regex","part":"body","values":["(?m)^[A-Z0-9_]+\\s*="]}]}
